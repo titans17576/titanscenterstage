@@ -2,7 +2,7 @@ repositories {
     mavenCentral()
     google() // Needed for androidx
 
-    maven ( url = 'https://maven.brott.dev/' } // Needed for RoadRunner
+    maven { url = 'https://maven.brott.dev/' } // Needed for RoadRunner
 }
 
 dependencies {
